@@ -11,5 +11,9 @@
     "capture"
   ],
   "author": "Dan Reeves <danr@fffunction.co>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fffunction/nunjucks-capture.git"
+  }
 }
