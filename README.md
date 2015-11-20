@@ -46,3 +46,5 @@ will result in:
         &lt;p&gt;This is the included content&lt;/p&gt;
     </pre>
 ```
+
+Everything between the two tags is stored in a new variable as a string. Dynamic content, such as includes or loops, are evaluated before the variable is stored. This means you've captured the resulting content, not the templating.
