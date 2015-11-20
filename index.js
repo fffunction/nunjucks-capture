@@ -18,6 +18,8 @@ module.exports = function CaptureTag () {
     this.run = function run (context, args, body) {
         if (args && 'as' in args) {
             context.ctx[args.as] = body();
+        } else {
+            throw new Error('Expected an "as" argument in capture tag');
         }
     };
 };
