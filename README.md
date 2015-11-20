@@ -48,3 +48,5 @@ will result in:
 ```
 
 Everything between the two tags is stored in a new variable as a string. Dynamic content, such as includes or loops, are evaluated before the variable is stored. This means you've captured the resulting content, not the templating.
+
+[![Built by fffunction, with love and coffee](http://i.imgur.com/hY7NBej.png)](http://ffunction.co "Built by fffunction, with love and coffee")
