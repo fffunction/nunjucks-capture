@@ -1,0 +1,15 @@
+{
+  "name": "nunjucks-capture",
+  "version": "1.0.0",
+  "description": "A nunjucks port of the Liquid Capture tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nunjucks",
+    "capture"
+  ],
+  "author": "Dan Reeves <danr@fffunction.co>",
+  "license": "MIT"
+}
