@@ -16,7 +16,7 @@ Add the extension to the Nunjucks environment:
 
 ```js
 var nunjucks = require('nunjucks');
-var CaptureTag = require('ninjucks-capture');
+var CaptureTag = require('nunjucks-capture');
 
 var env = new nunjucks.Environment();
 env.addExtension('CaptureTag', new CaptureTag());
