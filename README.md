@@ -41,12 +41,12 @@ Capture some content as a string:
 will result in:
 
 ```html
-    <h2>Hello, world!</h2>
-    <p>This is the included content</p>
-    <pre>
-        &lt;h2&gt;Hello, world!&lt;/h2&gt;
-        &lt;p&gt;This is the included content&lt;/p&gt;
-    </pre>
+<h2>Hello, world!</h2>
+<p>This is the included content</p>
+<pre>
+    &lt;h2&gt;Hello, world!&lt;/h2&gt;
+    &lt;p&gt;This is the included content&lt;/p&gt;
+</pre>
 ```
 
 Everything between the two tags is stored in a new variable as a string. Dynamic content, such as includes or loops, are evaluated before the variable is stored. This means you've captured the resulting content, not the templating.
