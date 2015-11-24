@@ -55,4 +55,4 @@ See also:
     - [Nunjucks API documentation](https://mozilla.github.io/nunjucks/api.html)
     - [Nunjucks templating documentation](https://mozilla.github.io/nunjucks/templating.html)
 
-[![Built by fffunction, with love and coffee](http://i.imgur.com/hY7NBej.png)](http://ffunction.co "Built by fffunction, with love and coffee")
+[![Built by fffunction, with love and coffee](http://i.imgur.com/hY7NBej.png)](http://fffunction.co "Built by fffunction, with love and coffee")
