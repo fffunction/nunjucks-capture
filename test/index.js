@@ -15,7 +15,6 @@ test('constructor', t => {
         expectedKeys,
         'object has keys'
     );
-    t.end();
 });
 
 test('init env', t => {
@@ -24,7 +23,6 @@ test('init env', t => {
     env.addExtension(extName, new CaptureTag());
 
     t.ok(env.extensions[extName], 'env has extension');
-    t.end();
 });
 
 test('render template', t => {
@@ -32,7 +30,6 @@ test('render template', t => {
     env.addExtension('Capture', new CaptureTag());
 
     t.is(env.renderString('{% capture as="test" %}test{% endcapture %}{{ test }}'), 'test');
-    t.end();
 });
 
 test('fails without "as"', t => {
@@ -42,5 +39,4 @@ test('fails without "as"', t => {
     t.throws(() => {
         env.renderString.call(env, '{% capture %}test{% endcapture %}{{ test }}');
     });
-    t.end();
 });
