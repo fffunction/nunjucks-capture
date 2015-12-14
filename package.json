@@ -18,7 +18,7 @@
     "url": "https://github.com/fffunction/nunjucks-capture.git"
   },
   "devDependencies": {
-    "ava": "0.7.0",
+    "ava": "0.8.0",
     "coveralls": "2.11.6",
     "nunjucks": "2.2.0",
     "nyc": "5.0.0"
