@@ -22,5 +22,8 @@
     "coveralls": "2.11.8",
     "nunjucks": "2.3.0",
     "nyc": "6.0.0"
+  },
+  "engines" : {
+    "node" : ">0.12"
   }
 }
