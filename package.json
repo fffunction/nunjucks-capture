@@ -1,6 +1,6 @@
 {
   "name": "nunjucks-capture",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A nunjucks port of the Liquid Capture tag",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
     "coveralls": "2.11.8",
     "nunjucks": "2.3.0",
     "nyc": "6.0.0"
+  },
+  "engines" : {
+    "node" : ">0.12"
   }
 }
