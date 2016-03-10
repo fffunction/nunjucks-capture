@@ -20,10 +20,10 @@
   "devDependencies": {
     "ava": "0.11.0",
     "coveralls": "2.11.8",
-    "nunjucks": "2.3.0",
+    "nunjucks": "2.4.0",
     "nyc": "6.0.0"
   },
-  "engines" : {
-    "node" : ">0.12"
+  "engines": {
+    "node": ">0.12"
   }
 }
