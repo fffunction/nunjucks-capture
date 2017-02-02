@@ -9,12 +9,9 @@ test('constructor', t => {
         'parse',
         'run',
     ];
+    const actualKeys = Object.keys(newTag);
 
-    t.same(
-        Object.keys(newTag),
-        expectedKeys,
-        'object has keys'
-    );
+    t.deepEqual(actualKeys, expectedKeys, 'object has keys');
 });
 
 test('init env', t => {
@@ -22,7 +19,7 @@ test('init env', t => {
     const extName = 'Capture';
     env.addExtension(extName, new CaptureTag());
 
-    t.ok(env.extensions[extName], 'env has extension');
+    t.truthy(env.extensions[extName], 'env has extension');
 });
 
 test('render template', t => {
