@@ -4,7 +4,7 @@
   "description": "A nunjucks port of the Liquid Capture tag",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava",
+    "test": "eslint . && nyc ava",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
@@ -20,6 +20,11 @@
   "devDependencies": {
     "ava": "0.18.2",
     "coveralls": "2.11.16",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "nunjucks": "3.0.0",
     "nyc": "10.1.2"
   },
