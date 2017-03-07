@@ -25,8 +25,8 @@ test('init env', (t) => {
 test('render template', (t) => {
     const env = new nunjucks.Environment();
     env.addExtension('Capture', new CaptureTag());
-
-    t.is(env.renderString('{% capture as="test" %}test{% endcapture %}{{ test }}{{ test }}{{ test }}'), 'testtesttest');
+    const tpl = '{% capture as="test" %}test{% endcapture %}{{ test }}{{ test }}{{ test }}';
+    t.is(env.renderString(tpl), 'testtesttest');
 });
 
 test('fails without "as"', (t) => {
