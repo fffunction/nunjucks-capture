@@ -1,10 +1,9 @@
 # nunjucks-capture
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/fffunction/nunjucks-capture.svg)](https://greenkeeper.io/)
-
 > A nunjucks port of the [Liquid Capture tag](https://docs.shopify.com/themes/liquid-documentation/tags/variable-tags#capture)
 
-[![Build Status](https://travis-ci.org/fffunction/nunjucks-capture.svg?branch=master)](https://travis-ci.org/fffunction/nunjucks-capture) [![Coverage Status](https://coveralls.io/repos/fffunction/nunjucks-capture/badge.svg?branch=master&service=github)](https://coveralls.io/github/fffunction/nunjucks-capture?branch=master)
+[![Build Status](https://travis-ci.org/fffunction/nunjucks-capture.svg?branch=master)](https://travis-ci.org/fffunction/nunjucks-capture) [![Coverage Status](https://coveralls.io/repos/fffunction/nunjucks-capture/badge.svg?branch=master&service=github)](https://coveralls.io/github/fffunction/nunjucks-capture?branch=master) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fffunction/nunjucks-capture.svg)](https://greenkeeper.io/)
 
 ## Install
 
