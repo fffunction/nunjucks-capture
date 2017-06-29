@@ -4,8 +4,12 @@
   "description": "A nunjucks port of the Liquid Capture tag",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && nyc ava",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "test": "xo && nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "prettier": "prettier --single-quote --trailing-comma=es5 --bracket-spacing --tab-width 4 --write ./index.js `find ./test -name '*.js'`"
+  },
+  "xo": {
+    "extends": "prettier"
   },
   "keywords": [
     "nunjucks",
@@ -18,15 +22,12 @@
     "url": "https://github.com/fffunction/nunjucks-capture.git"
   },
   "devDependencies": {
-    "ava": "0.18.2",
-    "coveralls": "2.13.0",
-    "eslint": "3.18.0",
-    "eslint-config-airbnb": "14.1.0",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.3",
-    "nunjucks": "3.0.0",
-    "nyc": "10.2.0"
+    "ava": "^0.20.0",
+    "coveralls": "^2.13.1",
+    "eslint-config-prettier": "^2.2.0",
+    "nunjucks": "^3.0.1",
+    "nyc": "^11.0.3",
+    "xo": "^0.18.2"
   },
   "engines": {
     "node": ">0.12"
