@@ -22,7 +22,7 @@
     "url": "https://github.com/fffunction/nunjucks-capture.git"
   },
   "devDependencies": {
-    "ava": "^0.21.0",
+    "ava": "^0.22.0",
     "coveralls": "^2.13.1",
     "eslint-config-prettier": "^2.2.0",
     "nunjucks": "^3.0.1",
