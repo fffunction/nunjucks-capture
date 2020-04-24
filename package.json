@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "ava": "^0.24.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.1.0",
     "eslint-config-prettier": "^2.2.0",
     "nunjucks": "^3.0.1",
     "nyc": "^11.0.3",
